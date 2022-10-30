@@ -21,5 +21,9 @@ $.each(data.Countries, function(key, value) {
 
 sno ++
 });
+    },
+ complete: function() {
+    $('.spinner').hide();
+
     }
 })

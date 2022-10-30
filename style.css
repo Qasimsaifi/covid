@@ -19,3 +19,41 @@ h2{
 .table{
     width: 60vh;
 } */
+.spinner {
+
+display: flex;
+
+
+
+gap: 8px;
+}
+
+.spinner > .dot {
+
+width: 1rem;
+
+height: 1rem;
+
+border-radius: 50%;
+
+background-color: hotpink; animation: blur 1s infinite alternate;
+
+}
+
+.spinner > .dot:nth-child(2) {
+
+animation-delay: 200ms;
+
+}
+
+.spinner > .dot:nth-child(3) { animation-delay: 400ms;
+}
+@keyframes blur {
+
+to
+
+{
+filter: blur (4px);
+
+opacity: 0;
+}}
